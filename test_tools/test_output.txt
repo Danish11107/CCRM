@@ -1,2 +1,0 @@
-[COMPILATION FAILED]
-/bin/sh: 1: javac: not found
