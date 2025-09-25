@@ -113,13 +113,13 @@ java -cp target/classes edu.ccrm.cli.Main
 ```
 > java -version
 ```
-(see `screenshots/java-version.png`)
+(screenshots/java-version.png`
 
 ## Eclipse setup steps (with screenshots)
 1. Install Eclipse IDE (Java Developers).
 2. File → Import → Existing Maven Projects → select project root (`CCRM_project`).
 3. Right-click project → Run As → Java Application → choose `edu.ccrm.cli.Main`.
-(see `screenshots/eclipse-project-setup.png`)
+(screenshots/eclipse-project-setup.png)
 
 ## Mapping table: syllabus topic → file/class/method
 | Topic | File / Class / Method |
