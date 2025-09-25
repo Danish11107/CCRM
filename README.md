@@ -68,9 +68,7 @@ edu.ccrm
 │
 ├─ README.md
 ├─ USAGE.md
-├─ LICENSE
-└─ pom.xml
- 
+└─ LICENSE
  
  ```
 
