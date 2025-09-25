@@ -172,6 +172,31 @@ java -cp out edu.ccrm.cli.Main
 
 ---
 
+# Screenshots
+
+![Java Version](screenshots/java-version.png)
+![VS Code Project](screenshots/project-structure.png)
+![CLI Running](screenshots/cli-run.png)
+![Backup Folder](screenshots/backup.png)
+
+**. Eclipse Installation**
+![ Eclipse Installation](screenshots/jdk-installation.png)
+
+**. Eclipse Project Setup**
+![Eclipse Project Setup](screenshots/eclipse-project-setup.png)
+
+**. Program Running in Console**
+![Program Running in Eclipse Console](screenshots/program-running-in-console.png)
+
+
+# Eclipse Setup 
+1. File → New → Java Project  
+2. Name project: `CCRM-Java-Project`  
+3. Copy source files into `edu/ccrm/...`  
+4. Run `MainMenu.java`
+
+---
+
 MIT License
 
 Copyright (c) 2025
