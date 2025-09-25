@@ -7,7 +7,6 @@ CCRM is a Java SE console application that demonstrates common OOP and Java conc
 - CLI: `edu.ccrm.cli.Main` — runnable main class (menu-driven).
 - Utilities: `ReportService`, `ArrayUtilsDemo`, `AssertDemo`.
 - Exceptions: `DuplicateEnrollmentException`, `MaxCreditLimitExceededException`.
-- Build: `pom.xml` (Maven). License: MIT.
 
 
 # Project Structure
