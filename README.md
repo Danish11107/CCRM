@@ -113,13 +113,13 @@ java -cp target/classes edu.ccrm.cli.Main
 ```
 > java -version
 ```
-(see `screenshots/jdk_version.png`)
+(see `screenshots/java-version.png`)
 
 ## Eclipse setup steps (with screenshots)
 1. Install Eclipse IDE (Java Developers).
 2. File → Import → Existing Maven Projects → select project root (`CCRM_project`).
 3. Right-click project → Run As → Java Application → choose `edu.ccrm.cli.Main`.
-(see `screenshots/eclipse_setup.png`)
+(see `screenshots/eclipse-project-setup.png`)
 
 ## Mapping table: syllabus topic → file/class/method
 | Topic | File / Class / Method |
@@ -144,13 +144,6 @@ java -ea -cp out edu.ccrm.cli.Main
 ```
 Assertions are used in `src/edu/ccrm/util/AssertDemo.java`.
 
-## Screenshots
-See the `screenshots/` folder:
-- `jdk_version.png` — `java -version` output (placeholder).
-- `eclipse_setup.png` — Eclipse import/run (placeholder).
-- `program_running.png` — Sample program run (placeholder).
-- `exports_backups.png` — Export & backup folder layout (placeholder).
-
 ---
 
 ## USAGE (short)
@@ -172,8 +165,8 @@ java -cp out edu.ccrm.cli.Main
 
 ---
 
-# Screenshots
-
+## Screenshots
+See the `screenshots/` folder:
 ![Java Version](screenshots/java-version.png)
 ![VS Code Project](screenshots/project-structure.png)
 ![CLI Running](screenshots/cli-run.png)
