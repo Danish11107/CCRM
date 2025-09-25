@@ -9,6 +9,72 @@ CCRM is a Java SE console application that demonstrates common OOP and Java conc
 - Exceptions: `DuplicateEnrollmentException`, `MaxCreditLimitExceededException`.
 - Build: `pom.xml` (Maven). License: MIT.
 
+
+# Project Structure
+
+```
+CCRM-Java-Project
+edu.ccrm
+├─ cli/
+│  └─ Main.java                 // Console menu, input loop
+│
+├─ domain/
+│  ├─ Person.java               // Abstract base class
+│  ├─ Student.java              // Student entity + Builder
+│  ├─ Instructor.java           // Instructor entity
+│  ├─ Course.java               // Course entity
+│  ├─ Enrollment.java           // Enrollment record
+│  ├─ Grade.java                // Enum with constructor & points field
+│  ├─ Semester.java             // Enum with constructor & fields (code, label)
+│  └─ (immutable value objects if any)
+│
+├─ service/
+│  ├─ StudentService.java       // Interface
+│  ├─ StudentServiceImpl.java   // Implementation
+│  ├─ CourseService.java
+│  ├─ CourseServiceImpl.java
+│  ├─ EnrollmentService.java
+│  ├─ EnrollmentServiceImpl.java
+│  ├─ TranscriptService.java
+│  └─ TranscriptServiceImpl.java
+│
+├─ io/
+│  ├─ ImportExportService.java  // CSV import/export (NIO.2)
+│  ├─ BackupService.java        // File backup service
+│  └─ CsvParser.java            // Simple CSV parsing helper
+│
+├─ util/
+│  ├─ Validators.java           // Input validation
+│  ├─ Comparators.java          // Common comparators (lambdas)
+│  ├─ RecursionUtils.java       // Recursive utilities
+│  ├─ ReportService.java        // GPA distribution reports (streams)
+│  ├─ ArrayUtilsDemo.java       // Arrays & Strings demo
+│  └─ AssertDemo.java           // Assertions demo
+│
+├─ config/
+│  └─ AppConfig.java            // Singleton config holder
+│
+├─ docs/
+│  └─ (pdf_extracted, etc.)
+│
+├─ screenshots/
+│  ├─ jdk_version.png
+│  ├─ eclipse_setup.png
+│  ├─ program_running.png
+│  └─ exports_backups.png
+│
+├─ sample_data/
+│  └─ students.csv              // Example CSV input
+│
+├─ README.md
+├─ USAGE.md
+├─ LICENSE
+└─ pom.xml
+ 
+ 
+ ```
+
+
 ## How to run
 - JDK: **Java 17** (recommended). Ensure `javac` and `java` are on PATH.
 
