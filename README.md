@@ -55,10 +55,13 @@ edu.ccrm
 │
 │
 ├─ screenshots/
-│  ├─ jdk_version.png
-│  ├─ eclipse_setup.png
-│  ├─ program_running.png
-│  └─ exports_backups.png
+│  ├─ backup.png
+│  ├─ cli-run.png
+│  ├─ eclipse-project-setup.png
+|  ├─ java-version.png
+|  ├─ jdk-installation.png
+|  ├─ program-running-in-console.png
+│  └─ project-structure.png
 │
 ├─ sample_data/
 │  └─ students.csv              // Example CSV input
