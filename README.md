@@ -53,8 +53,6 @@ edu.ccrm
 ├─ config/
 │  └─ AppConfig.java            // Singleton config holder
 │
-├─ docs/
-│  └─ (pdf_extracted, etc.)
 │
 ├─ screenshots/
 │  ├─ jdk_version.png
